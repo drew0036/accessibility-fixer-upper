@@ -20,12 +20,25 @@ a:hover {
 }
 
 a:focus {
-  color: #F00;
+  outline: 3px solid #f00;
+  text-decoration: underline;
+}
+
+.skip-links a {
+  outline: 3px solid #f00;
+  text-decoration: underline;
+}
+
+.skip-links a:hover {
+  color: #f00;
+}
+
+.nav a:focus {
+  outline: 3px solid #f00;
 }
 
 .masthead {
   background-color: #568c36;
-
   color: #fff;
 }
 
