@@ -12,7 +12,6 @@ html {
 
 a {
   color: #568c36;
-  text-decoration: none;
 }
 
 a:hover {
@@ -20,11 +19,14 @@ a:hover {
 }
 
 a:focus {
+  color: #00f;
   outline: 3px solid #f00;
   text-decoration: underline;
 }
 
 .skip-links a {
+  color: #fff;
+  background-color: #f00;
   outline: 3px solid #f00;
   text-decoration: underline;
 }
