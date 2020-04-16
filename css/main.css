@@ -14,39 +14,18 @@ a {
   color: #568c36;
 }
 
+.nav a:focus {
+  outline: 3px solid #000;
+  text-decoration: none;
+}
+
 a:hover {
   color: #113c00;
 }
 
-a:focus {
-  color: #f00;
-  outline: 3px solid #000;
-  text-decoration: underline;
-}
-
-.more:focus {
-  color: #00f;
-  outline: 3px solid #000;
-  text-decoration: underline;
-}
-
-.skip-links a {
-  color: #fff;
-  background-color: #000;
-  outline: 3px solid #0f0;
-  text-decoration: underline;
-}
-
-.skip-links a:hover {
-  color: #f00;
-}
-
-.nav a:focus {
-  outline: 3px solid #f00;
-}
-
 .masthead {
   background-color: #568c36;
+
   color: #fff;
 }
 
@@ -107,6 +86,10 @@ td {
 .footer {
   background-color: #113c00;
   color: #fff;
+}
+
+.highlight {
+  color: #113c00;
 }
 
 @media only screen and (min-width: 35em) {
