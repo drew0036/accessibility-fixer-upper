@@ -19,15 +19,21 @@ a:hover {
 }
 
 a:focus {
+  color: #f00;
+  outline: 3px solid #000;
+  text-decoration: underline;
+}
+
+.more:focus {
   color: #00f;
-  outline: 3px solid #f00;
+  outline: 3px solid #fff;
   text-decoration: underline;
 }
 
 .skip-links a {
   color: #fff;
-  background-color: #f00;
-  outline: 3px solid #f00;
+  background-color: #000;
+  outline: 3px solid #0f0;
   text-decoration: underline;
 }
 
